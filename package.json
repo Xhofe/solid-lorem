@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.0",
   "name": "solid-lorem",
   "description": "A component for Solid that renders lorem ipsum placeholder text.",
   "license": "MIT",
