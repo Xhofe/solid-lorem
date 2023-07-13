@@ -5,6 +5,7 @@ specifiers:
   esbuild: ^0.17.4
   esbuild-plugin-solid: ^0.5.0
   jsdom: ^21.1.0
+  lorem-ipsum: ^2.0.8
   prettier: 2.8.3
   solid-js: ^1.6.9
   tsup: ^6.5.0
@@ -13,6 +14,9 @@ specifiers:
   vite: ^4.0.4
   vite-plugin-solid: ^2.5.0
   vitest: ^0.28.2
+
+dependencies:
+  lorem-ipsum: 2.0.8
 
 devDependencies:
   concurrently: 7.6.0
@@ -1138,6 +1142,11 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
+  /commander/9.5.0:
+    resolution: {integrity: sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==}
+    engines: {node: ^12.20.0 || >=14}
+    dev: false
+
   /concat-map/0.0.1:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
@@ -1972,6 +1981,14 @@ packages:
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: true
+
+  /lorem-ipsum/2.0.8:
+    resolution: {integrity: sha512-5RIwHuCb979RASgCJH0VKERn9cQo/+NcAi2BMe9ddj+gp7hujl6BI+qdOG4nVsLDpwWEJwTVYXNKP6BGgbcoGA==}
+    engines: {node: '>= 8.x', npm: '>= 5.x'}
+    hasBin: true
+    dependencies:
+      commander: 9.5.0
+    dev: false
 
   /loupe/2.3.6:
     resolution: {integrity: sha512-RaPMZKiMy8/JruncMU5Bt6na1eftNoo++R4Y+N2FrxkDVTrGvcyzFTsaGif4QTeKESheMGegbhw6iUAq+5A8zA==}

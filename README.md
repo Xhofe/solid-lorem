@@ -8,15 +8,6 @@
 
 A component for Solid that renders lorem ipsum placeholder text.
 
-> **Note** After using this template, you have to search and replace all `solid-lorem` and similar strings
-> with appropriate texts.
->
-> `solid-lorem` should be a **kebab-case** string representing the name of you monorepo.
->
-> `A component for Solid that renders lorem ipsum placeholder text.` should be a **Normal case** string with the description of the repository.
->
-> `Xhofe` should be a **kebab-case** string from your profile URL.
-
 ## Quick start
 
 Install it:
@@ -32,5 +23,8 @@ pnpm add solid-lorem
 Use it:
 
 ```tsx
-import solid-lorem from 'solid-lorem'
+import { Lorem } from 'solid-lorem'
+import { render } from 'solid-js/web'
+
+render(() => <Lorem />, document.getElementById('root')!)
 ```

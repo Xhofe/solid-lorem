@@ -1,17 +1,17 @@
 {
-  "version": "0.0.0",
+  "version": "0.0.1",
   "name": "solid-lorem",
   "description": "A component for Solid that renders lorem ipsum placeholder text.",
   "license": "MIT",
-  "author": "Xhofe",
+  "author": "xhofe",
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xhofe/solid-lorem.git"
+    "url": "git+https://github.com/xhofe/solid-lorem.git"
   },
-  "homepage": "https://github.com/Xhofe/solid-lorem#readme",
+  "homepage": "https://github.com/xhofe/solid-lorem#readme",
   "bugs": {
-    "url": "https://github.com/Xhofe/solid-lorem/issues"
+    "url": "https://github.com/xhofe/solid-lorem/issues"
   },
   "files": [
     "dist"
@@ -73,5 +73,8 @@
   "keywords": [
     "solid"
   ],
-  "packageManager": "pnpm@7.22.0"
+  "packageManager": "pnpm@7.22.0",
+  "dependencies": {
+    "lorem-ipsum": "^2.0.8"
+  }
 }
